@@ -1,0 +1,47 @@
+{
+  "badge": "AI Classification Output",
+  "title": "We found a match.",
+  "subtitle": "Here's what DogBreedID predicted from your uploaded dog photograph.",
+  "empty": {
+    "title": "No prediction available",
+    "description": "You haven't uploaded an image for AI breed classification yet. Upload a dog photo to start.",
+    "action": "Identify a Dog"
+  },
+  "resultCard": {
+    "analyzed": "Analyzed",
+    "mostLikely": "Most Likely Breed Match",
+    "inferenceLatency": "Inference Latency",
+    "modelBackbone": "Model Backbone",
+    "datasetRef": "Dataset Reference",
+    "insightTitle": "Prediction Insight:",
+    "demoTag": "Demo",
+    "candidateTag": "Candidate",
+    "stanfordRef": "Stanford Dogs (120)"
+  },
+  "topPredictions": {
+    "title": "Top-5 Class Probabilities",
+    "subtitle": "Softmax output probabilities across 120 Stanford Dogs classes"
+  },
+  "gradCam": {
+    "title": "What did the AI focus on?",
+    "badge": "Demo Visualization",
+    "subtitle": "Grad-CAM (Gradient-weighted Class Activation Mapping) visualizes regions influencing prediction.",
+    "original": "Original",
+    "heatmap": "Grad-CAM Heatmap",
+    "lowAttention": "Low Attention",
+    "highFocus": "High Focus",
+    "disclaimer": "Interpretability Notice: The production version will display real Grad-CAM outputs generated directly by the FastAPI PyTorch backend."
+  },
+  "breedSummary": {
+    "title": "Predicted Breed Profile",
+    "group": "Breed Group",
+    "lifeExpectancy": "Life Expectancy",
+    "size": "Size Category",
+    "weight": "Typical Weight",
+    "traits": "Key Traits"
+  },
+  "tryAnother": {
+    "title": "Want to identify another dog?",
+    "subtitle": "Upload another photograph to analyze additional dog breeds."
+  }
+}

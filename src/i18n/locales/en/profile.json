@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "Your Profile",
+    "memberSince": "Member since {{date}}"
+  },
+  "edit": {
+    "title": "Edit Profile Details",
+    "fullName": "Full Name"
+  },
+  "stats": {
+    "predictions": "Total Predictions",
+    "predictionsSub": "Analyzed dog images",
+    "uniqueBreeds": "Unique Breeds",
+    "uniqueSub": "Identified breed classes",
+    "highestConfidence": "Highest Confidence",
+    "highestSub": "Top score benchmark"
+  },
+  "actions": {
+    "title": "Account Settings & Actions",
+    "changePassword": "Change Password",
+    "changePasswordSub": "Update security credentials",
+    "signOut": "Sign Out",
+    "signOutSub": "End your current session",
+    "deleteAccount": "Delete Account",
+    "deleteAccountSub": "Available after backend integration"
+  }
+}

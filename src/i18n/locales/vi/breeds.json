@@ -1,0 +1,47 @@
+{
+  "hero": {
+    "badge": "Lớp dữ liệu",
+    "title": "Khám phá các giống chó",
+    "subtitle": "Duyệt danh sách các giống chó được hỗ trợ trong phạm vi phân loại của mô hình thị giác máy tính."
+  },
+  "controls": {
+    "searchPlaceholder": "Tìm kiếm giống chó theo tên, nguồn gốc hoặc nhóm...",
+    "sortLabel": "Sắp xếp:",
+    "sortAZ": "Tên (A–Z)",
+    "sortZA": "Tên (Z–A)"
+  },
+  "size": {
+    "all": "Tất cả",
+    "small": "Nhỏ",
+    "medium": "Trung bình",
+    "large": "Lớn"
+  },
+  "empty": {
+    "title": "Không tìm thấy giống chó",
+    "description": "Chúng tôi không tìm thấy giống chó nào phù hợp với từ khóa tìm kiếm hoặc bộ lọc kích thước của bạn.",
+    "action": "Xóa bộ lọc"
+  },
+  "detail": {
+    "notFoundTitle": "Không tìm thấy giống chó",
+    "notFoundDesc": "Giống chó yêu cầu không có trong cơ sở dữ liệu của chúng tôi.",
+    "notFoundAction": "Khám phá các giống chó",
+    "characteristicsTitle": "Đặc điểm giống chó",
+    "detailedSpec": "Thông số chi tiết",
+    "heightRange": "Chiều cao",
+    "weightRange": "Cân nặng",
+    "coatFeatures": "Đặc điểm lông",
+    "originCountry": "Quốc gia nguồn gốc",
+    "appearanceProfile": "Mô tả ngoại hình:",
+    "similarBreeds": "Các giống chó tương tự",
+    "personalityTitle": "Tính cách & Đặc điểm",
+    "identifyBreedNow": "Nhận diện giống chó này ngay"
+  },
+  "characteristics": {
+    "friendliness": "Mức độ thân thiện",
+    "energy": "Mức năng lượng",
+    "trainability": "Khả năng huấn luyện",
+    "adaptability": "Khả năng thích nghi",
+    "grooming": "Nhu cầu chăm sóc lông",
+    "exercise": "Nhu cầu vận động"
+  }
+}

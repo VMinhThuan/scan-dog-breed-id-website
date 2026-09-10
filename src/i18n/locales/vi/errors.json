@@ -1,0 +1,18 @@
+{
+  "unsupportedType": "Định dạng tệp không được hỗ trợ. Vui lòng tải lên ảnh JPG hoặc PNG.",
+  "sizeLimitExceeded": "Dung lượng tệp ảnh vượt quá giới hạn 10MB.",
+  "invalidEmail": "Vui lòng nhập địa chỉ email hợp lệ.",
+  "shortPassword": "Mật khẩu phải có ít nhất 6 ký tự.",
+  "nameRequired": "Vui lòng nhập họ và tên.",
+  "passwordMismatch": "Mật khẩu xác nhận không khớp.",
+  "notFound404Title": "Có vẻ chú chó này đã đi lạc.",
+  "notFound404Desc": "Trang bạn đang tìm kiếm không tồn tại hoặc đã được di chuyển sang đường dẫn khác.",
+  "toasts": {
+    "signedIn": "Đăng nhập thành công.",
+    "accountCreated": "Tạo tài khoản thành công!",
+    "profileUpdated": "Cập nhật hồ sơ thành công.",
+    "loggedOut": "Đã đăng xuất.",
+    "historyDeleted": "Đã xóa bản ghi nhận diện cho {{breed}}.",
+    "passwordDemo": "Giao diện demo đổi mật khẩu"
+  }
+}

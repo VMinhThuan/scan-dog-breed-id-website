@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "badge": "Bối cảnh học thuật",
+    "title": "Về dự án DogBreedID",
+    "subtitle": "Đề tài khóa luận tốt nghiệp ngành Khoa học Máy tính nghiên cứu học sâu, học chuyển giao và tính giải thích mô hình cho phân loại giống chó chi tiết."
+  },
+  "challenge": {
+    "title": "Thách thức",
+    "desc": "Phân loại hình ảnh chi tiết bản chất rất phức tạp do sự khác biệt nhỏ giữa các giống chó có họ hàng gần (như Golden Retriever vs. Labrador Retriever) kết hợp với biến thiên nội lớp lớn về ánh sáng, tư thế, độ tuổi và họa tiết lông."
+  },
+  "approach": {
+    "title": "Phương pháp tiếp cận",
+    "desc": "Chúng tôi áp dụng học chuyển giao trên các mạng nơ-ron tích chập sâu (ResNet50, EfficientNet-B0, MobileNetV3) được tinh chỉnh trên bộ dữ liệu Stanford Dogs, kết hợp với bản đồ kích hoạt Grad-CAM và môi trường thực thi ONNX Runtime cho triển khai ứng dụng web."
+  },
+  "goals": {
+    "title": "Mục tiêu chính của dự án",
+    "g1Title": "So sánh các mạng CNN",
+    "g1Desc": "Đánh giá sự đánh đổi giữa độ chính xác phân loại, số lượng tham số và độ trễ suy luận.",
+    "g2Title": "ONNX Runtime",
+    "g2Desc": "Tối ưu hóa tốc độ thực thi mạng nơ-ron cho việc phục vụ các điểm cuối web thời gian thực.",
+    "g3Title": "Grad-CAM",
+    "g3Desc": "Cung cấp bản đồ nhiệt chú ý trực quan để giải thích các vùng dự đoán và tăng tính minh bạch của mô hình.",
+    "g4Title": "Nền tảng Web",
+    "g4Desc": "Xây dựng giao diện ứng dụng web hiện đại, tương tác cao phục vụ cho việc bảo vệ khóa luận và trình diễn trực tiếp."
+  },
+  "stack": {
+    "title": "Kiến trúc công nghệ hoàn chỉnh dự kiến",
+    "frontend": "Tầng Frontend",
+    "frontendDesc": "Ứng dụng web đơn trang xây dựng với ReactJS, React Router, biểu tượng Lucide và Framer Motion.",
+    "backend": "Backend tương lai",
+    "backendDesc": "Máy chủ API bất đồng bộ Python FastAPI xử lý tải tệp và các phiên làm việc ONNX Runtime.",
+    "ai": "Động cơ AI & Mô hình",
+    "aiDesc": "Trọng số học chuyển giao PyTorch được tinh chỉnh và xuất sang ONNX để tăng tốc suy luận.",
+    "database": "Tầng Cơ sở dữ liệu",
+    "databaseDesc": "Cơ sở dữ liệu quan hệ PostgreSQL lưu trữ phiên người dùng, nhật ký dữ liệu và lịch sử phân tích."
+  }
+}

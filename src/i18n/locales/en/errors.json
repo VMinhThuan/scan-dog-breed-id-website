@@ -1,0 +1,18 @@
+{
+  "unsupportedType": "Unsupported file type. Please upload a JPG or PNG image.",
+  "sizeLimitExceeded": "Image file size exceeds 10MB limit.",
+  "invalidEmail": "Please enter a valid email address.",
+  "shortPassword": "Password must be at least 6 characters long.",
+  "nameRequired": "Full Name is required.",
+  "passwordMismatch": "Passwords do not match.",
+  "notFound404Title": "Looks like this dog wandered off.",
+  "notFound404Desc": "The page you're looking for doesn't exist or has been moved to another route.",
+  "toasts": {
+    "signedIn": "Signed in successfully.",
+    "accountCreated": "Account created successfully!",
+    "profileUpdated": "Profile updated successfully.",
+    "loggedOut": "Logged out.",
+    "historyDeleted": "Deleted prediction history for {{breed}}.",
+    "passwordDemo": "Password change demo interface"
+  }
+}

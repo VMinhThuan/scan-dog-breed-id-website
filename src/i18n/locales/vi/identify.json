@@ -1,0 +1,50 @@
+{
+  "badge": "Không gian làm việc AI",
+  "title": "Nhận diện giống chó",
+  "subtitle": "Tải lên một ảnh chó rõ nét để DogBreedID phân tích các đặc điểm hình ảnh bằng mạng nơ-ron tích chập.",
+  "dropzone": {
+    "dragTitle": "Thả ảnh vào đây để tải lên",
+    "title": "Kéo và thả ảnh chó vào đây",
+    "subtitlePrefix": "hoặc",
+    "browseFiles": "Chọn ảnh từ thiết bị",
+    "formats": "JPG, JPEG, PNG",
+    "maxSize": "Dung lượng tối đa 10MB",
+    "privacyNotice": "Bản demo frontend: Ảnh của bạn được xử lý cục bộ trên trình duyệt và không được tải lên máy chủ.",
+    "supportedScope": "DogBreedID dự đoán trong phạm vi các giống chó thuộc bộ dữ liệu Stanford Dogs."
+  },
+  "preview": {
+    "sampleName": "Ảnh mẫu chó.jpg",
+    "identifyBreed": "Nhận diện giống chó"
+  },
+  "processing": {
+    "title": "Phân tích học sâu",
+    "activeEngine": "ONNX Runtime đang chạy",
+    "steps": [
+      "Đang phân tích hình ảnh...",
+      "Đang chuẩn bị các đặc trưng hình ảnh...",
+      "Đang chạy mô hình CNN...",
+      "Đang tính toán xác suất các giống chó...",
+      "Đang chuẩn bị kết quả..."
+    ]
+  },
+  "tips": {
+    "title": "Để có kết quả tốt hơn",
+    "tip1Title": "Ánh sáng tốt",
+    "tip1Desc": "Đảm bảo khuôn mặt và cơ thể chó được chiếu sáng rõ ràng, không bị bóng tối che khuất.",
+    "tip2Title": "Chủ thể rõ ràng",
+    "tip2Desc": "Ưu tiên ảnh chụp duy nhất một chú chó để đạt độ tin cậy phân loại cao hơn.",
+    "tip3Title": "Góc chụp phù hợp",
+    "tip3Desc": "Tai, cấu trúc khuôn mặt, chất lông và góc mõm hỗ trợ ánh xạ đặc trưng tốt hơn."
+  },
+  "systemSpec": {
+    "title": "Thông số hệ thống",
+    "classes": "Các lớp hỗ trợ",
+    "classesValue": "120 Giống chó",
+    "backbone": "Mô hình cốt lõi",
+    "backboneValue": "Học chuyển giao CNN",
+    "output": "Đầu ra",
+    "outputValue": "Ma trận Top-5",
+    "explainability": "Khả năng giải thích",
+    "explainabilityValue": "Grad-CAM"
+  }
+}

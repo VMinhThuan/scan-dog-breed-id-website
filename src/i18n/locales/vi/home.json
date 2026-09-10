@@ -1,0 +1,81 @@
+{
+  "hero": {
+    "badge": "Nhận diện giống chó bằng AI",
+    "titlePrefix": "Nhận diện giống chó với",
+    "titleGradient": "trí tuệ nhân tạo.",
+    "description": "Tải lên ảnh của một chú chó và để DogBreedID phân tích các đặc điểm hình ảnh bằng học sâu và mô hình phân loại ảnh chi tiết.",
+    "ctaPrimary": "Nhận diện giống chó",
+    "ctaSecondary": "Khám phá các giống chó",
+    "highlightBreeds": "120 Giống chó",
+    "highlightCnn": "Mô hình CNN",
+    "highlightInstant": "Kết quả tức thì",
+    "floatingCardLabel": "Dự đoán AI",
+    "matchRate": "Khớp {{rate}}%"
+  },
+  "quickIdentify": {
+    "badge": "Bắt đầu nhanh",
+    "title": "Thử DogBreedID ngay",
+    "subtitle": "Tải ảnh chú chó lên và trải nghiệm quy trình nhận diện bằng CNN."
+  },
+  "howItWorks": {
+    "badge": "Quy trình 3 bước đơn giản",
+    "title": "DogBreedID hoạt động thế nào",
+    "subtitle": "Từ tải ảnh lên đến dự đoán AI chỉ trong 3 bước đơn giản.",
+    "step1Title": "Tải ảnh lên",
+    "step1Desc": "Chọn ảnh chó rõ nét từ máy tính hoặc thiết bị di động của bạn.",
+    "step2Title": "Phân tích bằng AI",
+    "step2Desc": "Mô hình CNN trích xuất các đặc trưng hình ảnh như khuôn mặt, tai, đường nét lông và tỷ lệ cơ thể.",
+    "step3Title": "Khám phá giống chó",
+    "step3Desc": "Xem lớp giống chó được dự đoán, tỷ lệ độ tin cậy và các kết quả tương tự cùng minh họa Grad-CAM."
+  },
+  "stats": {
+    "badge": "Phạm vi nghiên cứu khóa luận",
+    "title": "Quy mô dữ liệu & Mô hình",
+    "breedsLabel": "Giống chó",
+    "breedsSub": "Lớp dữ liệu Stanford Dogs",
+    "imagesLabel": "Ảnh chó",
+    "imagesSub": "Ảnh huấn luyện được gắn nhãn",
+    "architecturesLabel": "Kiến trúc CNN",
+    "architecturesSub": "ResNet50, EfficientNet, MobileNet",
+    "predictionsLabel": "Dự đoán",
+    "predictionsSub": "Phân bố điểm xác suất"
+  },
+  "features": {
+    "badge": "Tính năng cốt lõi",
+    "title": "Thiết kế cho AI có khả năng giải thích",
+    "subtitle": "Được xây dựng với tính học thuật nghiêm túc, trực quan hóa đặc trưng và trải nghiệm người dùng tối ưu.",
+    "feat1Title": "Dự đoán mức độ cao",
+    "feat1Desc": "Hiển thị giống chó có khả năng cao nhất được dự đoán bởi mô hình học sâu.",
+    "feat2Title": "Điểm độ tin cậy",
+    "feat2Desc": "Cung cấp chỉ số độ tin cậy được hiệu chuẩn dựa trên xác suất lớp Softmax.",
+    "feat3Title": "Kết quả Top-k",
+    "feat3Desc": "Hiển thị các giống chó tương tự để hỗ trợ quyết định phân loại gần giống.",
+    "feat4Title": "Khả năng giải thích Grad-CAM",
+    "feat4Desc": "Trực quan hóa bản đồ kích hoạt không gian thể hiện vùng ảnh ảnh hưởng đến dự đoán."
+  },
+  "techStack": {
+    "badge": "Công nghệ sử dụng",
+    "title": "Vận hành bởi Thị giác máy tính",
+    "subtitle": "Khám phá quy trình học sâu, tối ưu hóa thời gian thực thi và AI có khả năng giải thích."
+  },
+  "featuredBreeds": {
+    "badge": "Các giống chó phổ biến",
+    "title": "Khám phá giống chó nổi bật",
+    "subtitle": "Khám phá hồ sơ chi tiết, đặc điểm tính cách và thể trạng của các giống chó.",
+    "viewAll": "Xem tất cả giống chó hỗ trợ"
+  },
+  "aiDemo": {
+    "badge": "Xem trước giao diện",
+    "title": "Minh họa kết quả tương tác",
+    "subtitle": "Xem cách hiển thị xác suất phân loại và chỉ số độ tin cậy.",
+    "topClass": "Giống chó hàng đầu",
+    "demoSnapshot": "Ảnh chụp demo"
+  },
+  "finalCta": {
+    "badge": "Sẵn sàng thử nghiệm?",
+    "title": "Sẵn sàng nhận diện giống chó?",
+    "subtitle": "Tải ảnh lên và trải nghiệm giao diện nhận diện bằng thị giác máy tính của DogBreedID.",
+    "startIdentification": "Bắt đầu nhận diện",
+    "browseBreeds": "Duyệt các giống chó"
+  }
+}

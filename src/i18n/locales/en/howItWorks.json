@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "badge": "User Journey Guide",
+    "title": "From Photo to Prediction",
+    "subtitle": "Discover what happens step-by-step from the moment an image is uploaded to the final AI result."
+  },
+  "steps": [
+    {
+      "num": "01",
+      "title": "Upload Image",
+      "desc": "Select a clear dog photograph from your camera roll or desktop (JPG, JPEG, PNG up to 10MB)."
+    },
+    {
+      "num": "02",
+      "title": "Image Preparation",
+      "desc": "Client-side image validation formats pixels to 224x224 RGB tensors normalized via ImageNet parameters."
+    },
+    {
+      "num": "03",
+      "title": "CNN Analysis",
+      "desc": "Convolutional layers process visual patterns across facial structure, ears, coat density, and body contours."
+    },
+    {
+      "num": "04",
+      "title": "Breed Probabilities",
+      "desc": "The final Softmax classification layer computes normalized probabilities across 120 Stanford Dogs classes."
+    },
+    {
+      "num": "05",
+      "title": "Prediction Result",
+      "desc": "Displays the top predicted breed alongside calibrated confidence scores and inference latency."
+    },
+    {
+      "num": "06",
+      "title": "Grad-CAM Attention Map",
+      "desc": "Visual heatmaps highlight spatial image regions contributing to the neural network decision."
+    },
+    {
+      "num": "07",
+      "title": "Breed Discovery",
+      "desc": "Explore detailed breed profiles, characteristics, origin, temperament traits, and similar classes."
+    }
+  ],
+  "cta": {
+    "title": "Try It Yourself",
+    "subtitle": "Test the DogBreedID classification interface with your own dog photo.",
+    "action": "Identify a Dog"
+  }
+}

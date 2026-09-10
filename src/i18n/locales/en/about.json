@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "badge": "Academic Context",
+    "title": "About DogBreedID",
+    "subtitle": "A Computer Science graduation thesis project exploring deep learning, transfer learning, and model interpretability for fine-grained dog breed classification."
+  },
+  "challenge": {
+    "title": "The Challenge",
+    "desc": "Fine-grained visual categorization is inherently challenging due to subtle inter-class differences between closely related breeds (such as Golden Retriever vs. Labrador Retriever) paired with large intra-class variation in lighting, pose, age, and coat pattern."
+  },
+  "approach": {
+    "title": "Our Approach",
+    "desc": "We leverage transfer learning on deep Convolutional Neural Networks (ResNet50, EfficientNet-B0, MobileNetV3), fine-tuned on the Stanford Dogs Dataset, paired with Grad-CAM activation maps and ONNX Runtime execution for web deployment."
+  },
+  "goals": {
+    "title": "Core Project Objectives",
+    "g1Title": "Compare CNNs",
+    "g1Desc": "Evaluate trade-offs between classification accuracy, parameter count, and inference latency.",
+    "g2Title": "ONNX Runtime",
+    "g2Desc": "Optimize neural network execution speed for real-time web endpoint serving.",
+    "g3Title": "Grad-CAM",
+    "g3Desc": "Provide visual attention heatmaps to explain prediction regions and increase model transparency.",
+    "g4Title": "Web Platform",
+    "g4Desc": "Build a modern, interactive web user interface designed for thesis defense and live demonstration."
+  },
+  "stack": {
+    "title": "Planned End-to-End Technology Stack",
+    "frontend": "Frontend Layer",
+    "frontendDesc": "Single-page web client built with ReactJS, React Router, Lucide icons, and Framer Motion.",
+    "backend": "Future Backend",
+    "backendDesc": "Asynchronous Python API server handling file uploads and ONNX Runtime sessions.",
+    "ai": "AI & Model Engine",
+    "aiDesc": "Fine-tuned transfer learning weights exported for ONNX inference acceleration.",
+    "database": "Database Layer",
+    "databaseDesc": "Relational database storing user sessions, metadata logs, and analysis history."
+  }
+}

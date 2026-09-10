@@ -1,0 +1,71 @@
+{
+  "hero": {
+    "badge": "Nghiên cứu khóa luận học thuật",
+    "title": "So sánh các kiến trúc CNN cho phân loại giống chó chi tiết",
+    "description": "Khóa luận đánh giá nhiều kiến trúc học chuyển giao dựa trên độ chính xác phân loại chi tiết, hiệu quả tính toán, số lượng tham số và độ trễ suy luận khi triển khai."
+  },
+  "objectives": {
+    "title": "Mục tiêu nghiên cứu",
+    "obj1Title": "Độ chính xác phân loại",
+    "obj1Desc": "Đạt độ chính xác top-1 và top-5 trong nhiệm vụ phân loại giống chó chi tiết.",
+    "obj2Title": "Độ trễ suy luận",
+    "obj2Desc": "Giảm thiểu thời gian phản hồi phục vụ triển khai ứng dụng web bằng ONNX Runtime.",
+    "obj3Title": "Hiệu quả mô hình",
+    "obj3Desc": "Đánh giá dung lượng mô hình và mức chiếm dụng bộ nhớ cho triển khai nhẹ.",
+    "obj4Title": "Khả năng giải thích",
+    "obj4Desc": "Tích hợp bản đồ chú ý Grad-CAM để tăng cường niềm tin và tính minh bạch của mô hình."
+  },
+  "models": {
+    "title": "Các kiến trúc CNN được đánh giá",
+    "resnetRole": "Mô hình cơ sở / Học chuyển giao",
+    "resnetDesc": "Mạng tàn dư sâu sử dụng các kết nối tắt để khắc phục hiện tượng triệt tiêu đạo hàm khi học đặc trưng chi tiết.",
+    "efficientnetRole": "Mô hình ứng viên chính",
+    "efficientnetDesc": "Kiến trúc tỷ lệ kết hợp cân bằng độ sâu, độ rộng và độ phân giải ảnh cho hiệu quả tham số cao.",
+    "mobilenetRole": "Mô hình suy luận nhẹ",
+    "mobilenetDesc": "Tìm kiếm kiến trúc nơ-ron nhận biết phần cứng được tối ưu cho độ trễ thấp trên thiết bị di động và web.",
+    "status": "Trạng thái:",
+    "trainingPhase": "Giai đoạn huấn luyện"
+  },
+  "matrix": {
+    "title": "Ma trận đánh giá kiến trúc",
+    "subtitle": "Chỉ số cơ sở so sánh giữa các mô hình học chuyển giao ứng viên",
+    "phaseBadge": "Giai đoạn thực nghiệm",
+    "colModel": "Mô hình",
+    "colAccuracy": "Độ chính xác",
+    "colPrecision": "Độ chính xác Precision",
+    "colRecall": "Độ gợi nhớ Recall",
+    "colF1": "Điểm F1-score",
+    "colTop5": "Chính xác Top-5",
+    "colSize": "Dung lượng mô hình",
+    "colLatency": "Độ trễ suy luận",
+    "pending": "Đang chờ đánh giá",
+    "academicNotice": "Lưu ý tính trung thực khoa học: Các chỉ số định lượng chính thức sẽ được cập nhật sau khi hoàn thành tinh chỉnh và đánh giá trên tập kiểm thử."
+  },
+  "chart": {
+    "title": "Biểu đồ so sánh chuẩn",
+    "subtitle": "Phân bố chỉ số trực quan giữa ResNet50, EfficientNet-B0 và MobileNetV3",
+    "pendingBadge": "Chưa có kết quả thực nghiệm",
+    "pendingTitle": "Chưa có kết quả thực nghiệm",
+    "pendingDesc": "Biểu đồ so sánh định lượng (Độ chính xác vs. Dung lượng mô hình vs. Độ trễ) sẽ được hiển thị sau khi hoàn thành đánh giá huấn luyện."
+  },
+  "dataset": {
+    "badge": "Bộ dữ liệu tham chiếu",
+    "title": "Stanford Dogs Dataset",
+    "description": "Nghiên cứu cơ sở sử dụng bộ dữ liệu Stanford Dogs, chứa các hình ảnh phân loại chi tiết được thu thập để kiểm thử thuật toán phân loại thị giác.",
+    "totalImages": "Tổng số ảnh",
+    "targetClasses": "Các lớp giống chó",
+    "classesValue": "120 Giống chó",
+    "splitTitle": "Phân chia bộ dữ liệu",
+    "trainSplit": "Tập huấn luyện (Training)",
+    "valSplit": "Tập kiểm định (Validation)",
+    "testSplit": "Tập kiểm thử (Testing)",
+    "configNote": "Có thể cấu hình trong quy trình"
+  },
+  "confusion": {
+    "title": "Đánh giá Ma trận nhầm lẫn (Confusion Matrix)",
+    "subtitle": "Trực quan hóa tỷ lệ nhầm lẫn giữa các lớp giống chó tương tự nhau",
+    "pendingBadge": "Đang chờ kết quả thực nghiệm",
+    "pendingTitle": "Ma trận nhầm lẫn — Chưa có kết quả thực nghiệm",
+    "pendingDesc": "Phân tích sự nhầm lẫn giữa các giống chó có ngoại hình gần giống nhau (như Golden Retriever vs. Labrador Retriever) sẽ được cập nhật sau khi chạy tập kiểm thử."
+  }
+}

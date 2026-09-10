@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "title": "Hồ sơ của bạn",
+    "memberSince": "Thành viên từ {{date}}"
+  },
+  "edit": {
+    "title": "Chỉnh sửa hồ sơ",
+    "fullName": "Họ và tên"
+  },
+  "stats": {
+    "predictions": "Số lần nhận diện",
+    "predictionsSub": "Số ảnh chó đã phân tích",
+    "uniqueBreeds": "Số giống chó đã nhận diện",
+    "uniqueSub": "Các lớp giống chó khác nhau",
+    "highestConfidence": "Độ tin cậy cao nhất",
+    "highestSub": "Điểm dự đoán cao nhất"
+  },
+  "actions": {
+    "title": "Cài đặt & Thao tác tài khoản",
+    "changePassword": "Đổi mật khẩu",
+    "changePasswordSub": "Cập nhật mật khẩu bảo mật",
+    "signOut": "Đăng xuất",
+    "signOutSub": "Kết thúc phiên làm việc hiện tại",
+    "deleteAccount": "Xóa tài khoản",
+    "deleteAccountSub": "Sẽ khả dụng sau khi tích hợp backend"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "hero": {
+    "badge": "Academic Thesis Research",
+    "title": "Comparing CNN architectures for fine-grained dog breed classification",
+    "description": "The thesis evaluates multiple transfer learning architectures based on fine-grained classification accuracy, computational efficiency, parameter count, and deployment latency."
+  },
+  "objectives": {
+    "title": "Research Objectives",
+    "obj1Title": "Classification Accuracy",
+    "obj1Desc": "Achieve top-1 and top-5 accuracy on fine-grained dog breed classification tasks.",
+    "obj2Title": "Inference Latency",
+    "obj2Desc": "Minimize response time for real-time web application deployment using ONNX Runtime.",
+    "obj3Title": "Model Efficiency",
+    "obj3Desc": "Evaluate model weight size and memory footprint for edge-friendly deployment.",
+    "obj4Title": "Explainability",
+    "obj4Desc": "Integrate Grad-CAM visual attention mapping to enhance user trust and model transparency."
+  },
+  "models": {
+    "title": "Evaluated CNN Architectures",
+    "resnetRole": "Baseline / Transfer Learning",
+    "resnetDesc": "Deep residual network utilizing skip connections to overcome vanishing gradients in fine-grained feature learning.",
+    "efficientnetRole": "Primary Candidate Model",
+    "efficientnetDesc": "Compound scaling architecture balancing depth, width, and image resolution for high parameter efficiency.",
+    "mobilenetRole": "Lightweight Edge Inference",
+    "mobilenetDesc": "Hardware-aware neural architecture search optimized for low latency mobile and web runtime execution.",
+    "status": "Status:",
+    "trainingPhase": "Training Phase"
+  },
+  "matrix": {
+    "title": "Architecture Evaluation Matrix",
+    "subtitle": "Comparative baseline benchmarks across transfer learning candidate models",
+    "phaseBadge": "Experimental Training Phase",
+    "colModel": "Model",
+    "colAccuracy": "Accuracy",
+    "colPrecision": "Precision",
+    "colRecall": "Recall",
+    "colF1": "F1-Score",
+    "colTop5": "Top-5 Acc",
+    "colSize": "Model Size",
+    "colLatency": "Inference Latency",
+    "pending": "Pending Evaluation",
+    "academicNotice": "Academic Integrity Notice: Final quantitative metrics will be populated upon completion of model fine-tuning and evaluation on test splits."
+  },
+  "chart": {
+    "title": "Benchmark Comparison Chart",
+    "subtitle": "Visual metric distributions across ResNet50, EfficientNet-B0, and MobileNetV3",
+    "pendingBadge": "Experimental Metrics Pending",
+    "pendingTitle": "Experimental Metrics Pending",
+    "pendingDesc": "Quantitative comparison plots (Accuracy vs. Model Size vs. Latency) will be rendered after training evaluation completes."
+  },
+  "dataset": {
+    "badge": "Dataset Reference",
+    "title": "Stanford Dogs Dataset",
+    "description": "The research baseline utilizes the Stanford Dogs Dataset, containing fine-grained category images collected for testing fine-grained visual categorization algorithms.",
+    "totalImages": "Total Images",
+    "targetClasses": "Target Classes",
+    "classesValue": "120 Breeds",
+    "splitTitle": "Dataset Split Partitioning",
+    "trainSplit": "Training Split",
+    "valSplit": "Validation Split",
+    "testSplit": "Testing Split",
+    "configNote": "Configurable in pipeline"
+  },
+  "confusion": {
+    "title": "Confusion Matrix Evaluation",
+    "subtitle": "Visualizing class misclassification rates across similar breed categories",
+    "pendingBadge": "Pending Evaluation Output",
+    "pendingTitle": "Confusion Matrix — Experimental Output Pending",
+    "pendingDesc": "Class confusion analysis between visually overlapping breeds (e.g., Golden Retriever vs. Labrador Retriever) will populate after test split execution."
+  }
+}

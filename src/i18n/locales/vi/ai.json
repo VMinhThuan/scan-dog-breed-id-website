@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "badge": "Bên trong kiến trúc AI",
+    "title": "DogBreedID nhìn nhận chú chó thế nào",
+    "description": "Khám phá quy trình thị giác máy tính, mạng nơ-ron tích chập sâu (CNN), tinh chỉnh học chuyển giao và khả năng giải thích Grad-CAM."
+  },
+  "pipeline": {
+    "title": "Quy trình phân loại từ đầu đến cuối",
+    "subtitle": "Từ ma trận ảnh đầu vào đến dự đoán xác suất Top-5."
+  },
+  "preprocessing": {
+    "badge": "Giai đoạn 1: Biến đổi ma trận Tensor",
+    "title": "Tiền xử lý & Chuẩn hóa hình ảnh",
+    "subtitle": "Trước khi đưa các điểm ảnh vào các lớp tích chập sâu, ảnh được thực hiện các phép biến đổi ma trận chuẩn.",
+    "step1Title": "Ảnh RGB",
+    "step1Desc": "Ảnh chụp gốc do người dùng tải lên ở định dạng JPG hoặc PNG.",
+    "step2Title": "Thay đổi kích thước",
+    "step2Desc": "Nội suy song tuyến tính đưa ảnh về độ phân giải chuẩn 224x224.",
+    "step3Title": "Chuẩn hóa",
+    "step3Desc": "Chuẩn hóa theo trung bình ImageNet [0.485, 0.456, 0.406] và độ lệch chuẩn [0.229, 0.224, 0.225].",
+    "step4Title": "Tensor đầu vào",
+    "step4Desc": "Kích thước Tensor (1, 3, 224, 224) sẵn sàng cho lượt chạy mô hình CNN."
+  },
+  "hierarchy": {
+    "title": "Học đặc trưng theo phân cấp",
+    "subtitle": "CNN học các biểu diễn đặc trưng có mức độ trừu tượng tăng dần theo độ sâu mạng.",
+    "g1Label": "Nhóm lớp 1",
+    "g1Title": "Cạnh & Đường nét",
+    "g1Desc": "Các lớp đầu tiên phát hiện biến thiên màu sắc, hướng và đường biên cạnh.",
+    "g2Label": "Nhóm lớp 2",
+    "g2Title": "Bề mặt & Kết cấu lông",
+    "g2Desc": "Các lớp trung gian nhận diện mô hình lông, kết cấu mũi và đường nét mắt.",
+    "g3Label": "Nhóm lớp 3",
+    "g3Title": "Chi tiết khuôn mặt",
+    "g3Desc": "Các lớp sâu hơn hợp nhất tai, hình dáng mõm, hộp sọ và vị trí mắt.",
+    "g4Label": "Nhóm lớp 4",
+    "g4Title": "Đặc trưng giống chó",
+    "g4Desc": "Bản đồ đặc trưng cuối cùng mã hóa sự khác biệt chi tiết giữa 120 giống chó."
+  },
+  "gradCam": {
+    "badge": "Khả năng giải thích Grad-CAM",
+    "title": "Hiểu vùng AI chú ý",
+    "description": "Grad-CAM sử dụng độ gián đoạn truyền vào lớp tích chập cuối cùng để tạo bản đồ định vị thô thể hiện các vùng ảnh quan trọng.",
+    "disclaimer": "Lưu ý khoa học: Grad-CAM đóng vai trò công cụ trực quan hóa khả năng giải thích, không phải bằng chứng về quy trình suy luận hoàn chỉnh của con người."
+  },
+  "onnx": {
+    "badge": "Tối ưu hóa thời gian thực thi ONNX",
+    "title": "Tăng tốc triển khai",
+    "description": "Trọng số mô hình PyTorch được xuất sang định dạng ONNX để tối ưu hóa độ trễ suy luận web trên phần cứng CPU/GPU."
+  }
+}

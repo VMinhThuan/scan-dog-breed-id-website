@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "badge": "User Workspace Logs",
+    "title": "Prediction History",
+    "subtitle": "Review your previous DogBreedID image analyses, confidence scores, and model predictions."
+  },
+  "stats": {
+    "totalPredictions": "Total Predictions",
+    "totalSub": "Analyzed dog images",
+    "uniqueBreeds": "Unique Breeds",
+    "uniqueSub": "Distinct classes identified",
+    "avgConfidence": "Average Confidence",
+    "avgSub": "Mean classification score"
+  },
+  "controls": {
+    "searchPlaceholder": "Search history by breed...",
+    "sortBy": "Sort by:",
+    "newest": "Newest First",
+    "oldest": "Oldest First",
+    "highest": "Highest Confidence"
+  },
+  "empty": {
+    "title": "No predictions yet",
+    "description": "Your future DogBreedID image analyses and AI breed classification logs will appear here.",
+    "action": "Identify Your First Dog"
+  },
+  "modal": {
+    "title": "Delete Prediction Log?",
+    "message": "Are you sure you want to remove the prediction record for \"{{breed}}\"? This action cannot be undone.",
+    "confirm": "Delete History Log"
+  }
+}

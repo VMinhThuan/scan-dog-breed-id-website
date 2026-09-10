@@ -1,0 +1,81 @@
+{
+  "hero": {
+    "badge": "AI-Powered Dog Breed Recognition",
+    "titlePrefix": "Identify dog breeds with",
+    "titleGradient": "artificial intelligence.",
+    "description": "Upload a dog photo and let DogBreedID analyze visual characteristics using deep learning and fine-grained image classification.",
+    "ctaPrimary": "Identify a Dog",
+    "ctaSecondary": "Explore Breeds",
+    "highlightBreeds": "120 Breeds",
+    "highlightCnn": "CNN Powered",
+    "highlightInstant": "Instant Results",
+    "floatingCardLabel": "AI Prediction",
+    "matchRate": "{{rate}}% Match"
+  },
+  "quickIdentify": {
+    "badge": "Quick Start",
+    "title": "Try DogBreedID Instantly",
+    "subtitle": "Upload a dog image and experience the CNN identification workflow."
+  },
+  "howItWorks": {
+    "badge": "Simple 3-Step Process",
+    "title": "How DogBreedID Works",
+    "subtitle": "From image upload to AI prediction in three seamless steps.",
+    "step1Title": "Upload Photo",
+    "step1Desc": "Choose a clear dog image from your computer or mobile device.",
+    "step2Title": "AI Analysis",
+    "step2Desc": "The CNN extracts visual features such as facial contours, ears, coat patterns, and body proportions.",
+    "step3Title": "Discover Breed",
+    "step3Desc": "Review predicted breed class, confidence percentage, and similar probabilities with Grad-CAM insights."
+  },
+  "stats": {
+    "badge": "Thesis Research Scope",
+    "title": "Dataset & Model Scale",
+    "breedsLabel": "Dog Breeds",
+    "breedsSub": "Stanford Dogs Dataset classes",
+    "imagesLabel": "Dog Images",
+    "imagesSub": "Annotated training photos",
+    "architecturesLabel": "CNN Architectures",
+    "architecturesSub": "ResNet50, EfficientNet, MobileNet",
+    "predictionsLabel": "Predictions",
+    "predictionsSub": "Probability score distribution"
+  },
+  "features": {
+    "badge": "Core Capabilities",
+    "title": "Built for Explainable AI Identification",
+    "subtitle": "Designed with academic rigor, feature visualization, and user-centered design.",
+    "feat1Title": "High-Level Prediction",
+    "feat1Desc": "Displays the most likely dog breed predicted by fine-tuned deep learning models.",
+    "feat2Title": "Confidence Score",
+    "feat2Desc": "Provides calibrated confidence metrics based on Softmax classification probabilities.",
+    "feat3Title": "Top-k Results",
+    "feat3Desc": "Displays visually similar alternative breed classes to assist in close classification decisions.",
+    "feat4Title": "Grad-CAM Explainability",
+    "feat4Desc": "Visualizes spatial activation maps showing feature regions that influenced the model prediction."
+  },
+  "techStack": {
+    "badge": "Technology Stack",
+    "title": "Powered by Computer Vision",
+    "subtitle": "Exploring deep learning pipelines, optimized runtime execution, and explainable AI."
+  },
+  "featuredBreeds": {
+    "badge": "Popular Classes",
+    "title": "Explore Featured Breeds",
+    "subtitle": "Discover detailed breed profiles, characteristics, and physical traits.",
+    "viewAll": "View All Supported Breeds"
+  },
+  "aiDemo": {
+    "badge": "Interface Demo",
+    "title": "Interactive Result Preview",
+    "subtitle": "See how classification probabilities and confidence metrics are displayed.",
+    "topClass": "Top Class",
+    "demoSnapshot": "Demo Snapshot"
+  },
+  "finalCta": {
+    "badge": "Ready to Test?",
+    "title": "Ready to identify a dog breed?",
+    "subtitle": "Upload an image and experience DogBreedID's computer vision identification interface.",
+    "startIdentification": "Start Identification",
+    "browseBreeds": "Browse Breeds"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "badge": "Help & Documentation",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers regarding DogBreedID's thesis scope, AI model architectures, and image classification capabilities."
+  },
+  "searchPlaceholder": "Search questions by keyword...",
+  "categories": {
+    "all": "All",
+    "using": "Using DogBreedID",
+    "aiModel": "AI Model",
+    "predictions": "Predictions",
+    "privacy": "Privacy",
+    "research": "Research"
+  },
+  "empty": {
+    "title": "No questions found",
+    "description": "We couldn't find any FAQ items matching your search keywords or category filter.",
+    "action": "Clear Search"
+  }
+}

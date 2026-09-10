@@ -1,0 +1,47 @@
+{
+  "badge": "Kết quả dự đoán của AI",
+  "title": "Đã tìm thấy giống chó phù hợp.",
+  "subtitle": "Dưới đây là kết quả DogBreedID dự đoán từ ảnh chó bạn đã tải lên.",
+  "empty": {
+    "title": "Chưa có kết quả dự đoán",
+    "description": "Bạn chưa tải ảnh lên để nhận diện giống chó. Hãy tải ảnh lên để bắt đầu.",
+    "action": "Nhận diện giống chó"
+  },
+  "resultCard": {
+    "analyzed": "Đã phân tích",
+    "mostLikely": "Giống chó có khả năng cao nhất",
+    "inferenceLatency": "Thời gian suy luận",
+    "modelBackbone": "Mô hình cốt lõi",
+    "datasetRef": "Bộ dữ liệu tham chiếu",
+    "insightTitle": "Phân tích kết quả:",
+    "demoTag": "Demo",
+    "candidateTag": "Ứng viên",
+    "stanfordRef": "Stanford Dogs (120)"
+  },
+  "topPredictions": {
+    "title": "Xác suất Top-5 lớp",
+    "subtitle": "Xác suất lớp đầu ra Softmax trên 120 lớp giống chó"
+  },
+  "gradCam": {
+    "title": "AI đã tập trung vào đâu?",
+    "badge": "Minh họa demo",
+    "subtitle": "Grad-CAM giúp trực quan hóa những vùng hình ảnh có ảnh hưởng lớn đến kết quả dự đoán.",
+    "original": "Ảnh gốc",
+    "heatmap": "Vùng AI chú ý",
+    "lowAttention": "Mức chú ý thấp",
+    "highFocus": "Mức chú ý cao",
+    "disclaimer": "Lưu ý giải thích: Trong phiên bản hoàn chỉnh, phần minh họa này sẽ được thay thế bằng kết quả Grad-CAM thực tế do hệ thống AI backend tạo ra."
+  },
+  "breedSummary": {
+    "title": "Hồ sơ giống chó dự đoán",
+    "group": "Nhóm giống",
+    "lifeExpectancy": "Tuổi thọ",
+    "size": "Kích thước",
+    "weight": "Cân nặng trung bình",
+    "traits": "Đặc điểm chính"
+  },
+  "tryAnother": {
+    "title": "Bạn muốn nhận diện chú chó khác?",
+    "subtitle": "Tải lên ảnh khác để phân tích các giống chó tiếp theo."
+  }
+}

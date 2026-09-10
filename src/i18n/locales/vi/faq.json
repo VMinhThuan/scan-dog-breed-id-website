@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "badge": "Trợ giúp & Tài liệu",
+    "title": "Câu hỏi thường gặp",
+    "subtitle": "Tìm câu trả lời liên quan đến phạm vi khóa luận, các mô hình AI và khả năng phân loại của DogBreedID."
+  },
+  "searchPlaceholder": "Tìm kiếm câu hỏi theo từ khóa...",
+  "categories": {
+    "all": "Tất cả",
+    "using": "Sử dụng DogBreedID",
+    "aiModel": "Mô hình AI",
+    "predictions": "Kết quả dự đoán",
+    "privacy": "Bảo mật",
+    "research": "Nghiên cứu"
+  },
+  "empty": {
+    "title": "Không tìm thấy câu hỏi nào",
+    "description": "Chúng tôi không tìm thấy câu hỏi FAQ nào phù hợp với từ khóa hoặc danh mục được chọn.",
+    "action": "Xóa tìm kiếm"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "badge": "Hướng dẫn quy trình",
+    "title": "Từ hình ảnh đến kết quả dự đoán",
+    "subtitle": "Khám phá từng bước chi tiết từ lúc chọn ảnh chó đến khi nhận kết quả dự đoán từ AI."
+  },
+  "steps": [
+    {
+      "num": "01",
+      "title": "Tải ảnh lên",
+      "desc": "Chọn ảnh chụp chó rõ nét từ thư viện ảnh hoặc máy tính của bạn (định dạng JPG, JPEG, PNG dung lượng dưới 10MB)."
+    },
+    {
+      "num": "02",
+      "title": "Chuẩn bị hình ảnh",
+      "desc": "Quá trình kiểm tra phía trình duyệt đưa ảnh về dạng Tensor RGB chuẩn 224x224 được chuẩn hóa theo thông số ImageNet."
+    },
+    {
+      "num": "03",
+      "title": "Phân tích bằng CNN",
+      "desc": "Các lớp tích chập xử lý các đường nét hình ảnh như khuôn mặt, tai, độ dày của lông và hình dáng cơ thể."
+    },
+    {
+      "num": "04",
+      "title": "Xác suất các giống chó",
+      "desc": "Lớp phân loại Softmax cuối cùng tính toán phân bố xác suất được hiệu chuẩn trên 120 giống chó Stanford Dogs."
+    },
+    {
+      "num": "05",
+      "title": "Kết quả dự đoán",
+      "desc": "Hiển thị giống chó được dự đoán hàng đầu cùng các chỉ số độ tin cậy và thời gian suy luận."
+    },
+    {
+      "num": "06",
+      "title": "Minh họa Grad-CAM",
+      "desc": "Bản đồ nhiệt chú ý trực quan hóa các vùng hình ảnh có đóng góp lớn nhất vào quyết định của mạng nơ-ron."
+    },
+    {
+      "num": "07",
+      "title": "Khám phá giống chó",
+      "desc": "Khám phá hồ sơ chi tiết giống chó, đặc điểm tính cách, nguồn gốc, nhu cầu chăm sóc và các giống chó tương tự."
+    }
+  ],
+  "cta": {
+    "title": "Tự mình trải nghiệm",
+    "subtitle": "Kiểm thử giao diện phân loại giống chó của DogBreedID với ảnh chụp chú chó của bạn.",
+    "action": "Nhận diện giống chó"
+  }
+}

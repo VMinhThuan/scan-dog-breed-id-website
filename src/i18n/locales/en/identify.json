@@ -1,0 +1,50 @@
+{
+  "badge": "AI Identification Workspace",
+  "title": "Identify Your Dog Breed",
+  "subtitle": "Upload a clear dog photograph and let DogBreedID analyze visual features using fine-grained Convolutional Neural Networks.",
+  "dropzone": {
+    "dragTitle": "Release to upload",
+    "title": "Drag & drop your dog photo",
+    "subtitlePrefix": "or",
+    "browseFiles": "Browse Files",
+    "formats": "JPG, JPEG, PNG",
+    "maxSize": "Maximum 10MB",
+    "privacyNotice": "Frontend demo: Your image is processed locally in this browser and is not uploaded to a server.",
+    "supportedScope": "DogBreedID predicts among supported Stanford Dogs breed classes."
+  },
+  "preview": {
+    "sampleName": "Sample Dog Image.jpg",
+    "identifyBreed": "Identify Breed"
+  },
+  "processing": {
+    "title": "Deep Learning Analysis",
+    "activeEngine": "ONNX Runtime Active",
+    "steps": [
+      "Analyzing image...",
+      "Preparing visual features...",
+      "Running CNN inference...",
+      "Calculating breed probabilities...",
+      "Preparing result..."
+    ]
+  },
+  "tips": {
+    "title": "For Better Predictions",
+    "tip1Title": "Good lighting",
+    "tip1Desc": "Ensure the dog's face and body are brightly lit without heavy shadow.",
+    "tip2Title": "Clear single subject",
+    "tip2Desc": "Photographs featuring a single dog provide higher classification confidence.",
+    "tip3Title": "Visible features",
+    "tip3Desc": "Ears, facial structure, coat texture, and muzzle angle assist feature mapping."
+  },
+  "systemSpec": {
+    "title": "System Specification",
+    "classes": "Supported Classes",
+    "classesValue": "120 Breeds",
+    "backbone": "Model Backbone",
+    "backboneValue": "CNN Transfer",
+    "output": "Output Format",
+    "outputValue": "Top-5 Logits",
+    "explainability": "Explainability",
+    "explainabilityValue": "Grad-CAM"
+  }
+}

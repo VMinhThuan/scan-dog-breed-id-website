@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "badge": "Inside the AI Architecture",
+    "title": "How DogBreedID sees a dog",
+    "description": "Explore the computer vision pipeline, deep convolutional neural networks, transfer learning fine-tuning, and Grad-CAM interpretability."
+  },
+  "pipeline": {
+    "title": "End-to-End Classification Flow",
+    "subtitle": "From raw image matrix input to calibrated Top-5 probability predictions."
+  },
+  "preprocessing": {
+    "badge": "Stage 1: Tensor Transformation",
+    "title": "Image Preprocessing & Normalization",
+    "subtitle": "Before feeding pixels into deep convolutional layers, images undergo standard matrix transformations.",
+    "step1Title": "RGB Image",
+    "step1Desc": "Raw input photo submitted by user in JPG or PNG format.",
+    "step2Title": "Resize",
+    "step2Desc": "Bilinear interpolation resizes image to uniform 224x224 resolution.",
+    "step3Title": "Normalize",
+    "step3Desc": "Standardized using ImageNet mean [0.485, 0.456, 0.406] and std [0.229, 0.224, 0.225].",
+    "step4Title": "Tensor Input",
+    "step4Desc": "Batch shape (1, 3, 224, 224) ready for CNN forward pass execution."
+  },
+  "hierarchy": {
+    "title": "Hierarchical Feature Learning",
+    "subtitle": "CNNs learn increasingly abstract representations across network depth.",
+    "g1Label": "Layer Group 1",
+    "g1Title": "Edges & Lines",
+    "g1Desc": "Early layers detect low-level color gradients, orientation, and edge boundaries.",
+    "g2Label": "Layer Group 2",
+    "g2Title": "Textures & Fur",
+    "g2Desc": "Mid-level layers identify fur coat patterns, nose textures, and eye contours.",
+    "g3Label": "Layer Group 3",
+    "g3Title": "Facial Parts",
+    "g3Desc": "Deeper layers assemble ears, muzzle shape, skull geometry, and eye positions.",
+    "g4Label": "Layer Group 4",
+    "g4Title": "Breed Traits",
+    "g4Desc": "Final feature maps encode fine-grained breed distinctions across 120 target classes."
+  },
+  "gradCam": {
+    "badge": "Grad-CAM Interpretability",
+    "title": "Understanding AI Attention",
+    "description": "Grad-CAM uses gradients flowing into the final convolutional layer to produce a coarse localization map highlighting important regions for predicting a concept.",
+    "disclaimer": "Scientific Disclaimer: Grad-CAM serves as an interpretability visual tool, not proof of exact human reasoning."
+  },
+  "onnx": {
+    "badge": "ONNX Runtime Optimization",
+    "title": "Deployment Acceleration",
+    "description": "Trained PyTorch weights are exported to Open Neural Network Exchange (ONNX) format for hardware-optimized CPU/GPU web inference latency."
+  }
+}

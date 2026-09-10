@@ -1,0 +1,47 @@
+{
+  "hero": {
+    "badge": "Dataset Classes",
+    "title": "Explore Dog Breeds",
+    "subtitle": "Browse the dog breeds supported in the fine-grained computer vision model classification scope."
+  },
+  "controls": {
+    "searchPlaceholder": "Search breed by name, origin or group...",
+    "sortLabel": "Sort:",
+    "sortAZ": "Name (A–Z)",
+    "sortZA": "Name (Z–A)"
+  },
+  "size": {
+    "all": "All",
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large"
+  },
+  "empty": {
+    "title": "No breeds found",
+    "description": "We couldn't find any dog breeds matching your search criteria or size filter.",
+    "action": "Clear Filters"
+  },
+  "detail": {
+    "notFoundTitle": "Breed not found",
+    "notFoundDesc": "The requested dog breed could not be located in our dataset database.",
+    "notFoundAction": "Explore Breeds",
+    "characteristicsTitle": "Breed Characteristics",
+    "detailedSpec": "Detailed Specification",
+    "heightRange": "Height Range",
+    "weightRange": "Weight Range",
+    "coatFeatures": "Coat Features",
+    "originCountry": "Origin Country",
+    "appearanceProfile": "Appearance Profile:",
+    "similarBreeds": "Similar Breed Classes",
+    "personalityTitle": "Personality & Temperament",
+    "identifyBreedNow": "Identify This Breed Now"
+  },
+  "characteristics": {
+    "friendliness": "Friendliness",
+    "energy": "Energy Level",
+    "trainability": "Trainability",
+    "adaptability": "Adaptability",
+    "grooming": "Grooming Needs",
+    "exercise": "Exercise Needs"
+  }
+}

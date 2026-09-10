@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "badge": "Nhật ký không gian làm việc",
+    "title": "Lịch sử nhận diện",
+    "subtitle": "Xem lại các lượt phân tích hình ảnh, điểm độ tin cậy và mô hình dự đoán trước đây của DogBreedID."
+  },
+  "stats": {
+    "totalPredictions": "Tổng số lần nhận diện",
+    "totalSub": "Số ảnh chó đã phân tích",
+    "uniqueBreeds": "Số giống chó đã nhận diện",
+    "uniqueSub": "Các lớp giống chó khác nhau",
+    "avgConfidence": "Độ tin cậy trung bình",
+    "avgSub": "Điểm phân loại trung bình"
+  },
+  "controls": {
+    "searchPlaceholder": "Tìm theo tên giống chó...",
+    "sortBy": "Sắp xếp theo:",
+    "newest": "Mới nhất",
+    "oldest": "Cũ nhất",
+    "highest": "Độ tin cậy cao nhất"
+  },
+  "empty": {
+    "title": "Chưa có lịch sử nhận diện",
+    "description": "Các lượt phân tích hình ảnh và nhật ký phân loại giống chó của bạn sẽ xuất hiện tại đây.",
+    "action": "Nhận diện chú chó đầu tiên"
+  },
+  "modal": {
+    "title": "Xóa kết quả nhận diện?",
+    "message": "Bạn có chắc chắn muốn xóa bản ghi dự đoán cho \"{{breed}}\"? Thao tác này không thể hoàn tác.",
+    "confirm": "Xóa bản ghi"
+  }
+}
