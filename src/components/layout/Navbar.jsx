@@ -60,32 +60,32 @@ export const Navbar = () => {
             : 'bg-transparent py-5'
         }`}
       >
-        <Container>
-          <div className="flex items-center justify-between">
+        <Container size="wide">
+          <div className="flex items-center justify-between gap-4">
             {/* Logo */}
-            <Link to="/" className="flex items-center gap-2.5 group">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-violet-600 flex items-center justify-center text-white shadow-md shadow-blue-500/20 group-hover:scale-105 transition-transform">
-                <Scan className="w-6 h-6" />
+            <Link to="/" className="flex items-center gap-2.5 group shrink-0">
+              <div className="w-9 h-9 xl:w-10 xl:h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-violet-600 flex items-center justify-center text-white shadow-md shadow-blue-500/20 group-hover:scale-105 transition-transform">
+                <Scan className="w-5 h-5 xl:w-6 xl:h-6" />
               </div>
               <div className="flex flex-col">
-                <span className="text-xl font-black tracking-tight text-slate-900 leading-none">
+                <span className="text-lg xl:text-xl font-black tracking-tight text-slate-900 leading-none">
                   DogBreed<span className="text-blue-600">ID</span>
                 </span>
-                <span className="text-[10px] font-bold text-violet-600 tracking-wider uppercase mt-0.5">
+                <span className="text-[9px] xl:text-[10px] font-bold text-violet-600 tracking-wider uppercase mt-0.5">
                   AI Computer Vision
                 </span>
               </div>
             </Link>
 
             {/* Desktop Navigation Links */}
-            <nav className="hidden lg:flex items-center gap-1 bg-slate-100/70 p-1.5 rounded-2xl border border-slate-200/60">
+            <nav className="hidden lg:flex items-center gap-0.5 xl:gap-1 bg-slate-100/70 p-1.5 rounded-2xl border border-slate-200/60 shrink-0">
               {navLinks.map((link) => (
                 <NavLink
                   key={link.to}
                   to={link.to}
                   end={link.to === '/'}
                   className={({ isActive }) =>
-                    `px-4 py-2 text-sm font-medium rounded-xl transition-all duration-200 ${
+                    `px-3 xl:px-4 py-1.5 xl:py-2 text-xs xl:text-sm font-medium rounded-xl transition-all duration-200 whitespace-nowrap ${
                       isActive
                         ? 'bg-white text-blue-600 shadow-xs font-semibold'
                         : 'text-slate-600 hover:text-slate-900 hover:bg-white/50'
@@ -98,22 +98,22 @@ export const Navbar = () => {
             </nav>
 
             {/* Desktop Right Auth & Language Actions */}
-            <div className="hidden lg:flex items-center gap-3">
+            <div className="hidden lg:flex items-center gap-2 xl:gap-3 shrink-0">
               <LanguageSwitcher />
 
               {isAuthenticated ? (
                 <div className="relative" ref={dropdownRef}>
                   <button
                     onClick={() => setDropdownOpen(!dropdownOpen)}
-                    className="flex items-center gap-2.5 p-1.5 pl-3 rounded-xl bg-white border border-slate-200 shadow-xs hover:border-slate-300 transition-all text-slate-800"
+                    className="flex items-center gap-2 p-1.5 pl-3 rounded-xl bg-white border border-slate-200 shadow-xs hover:border-slate-300 transition-all text-slate-800"
                     aria-expanded={dropdownOpen}
                   >
                     <img
                       src={user?.avatar || "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200"}
                       alt={user?.name}
-                      className="w-8 h-8 rounded-full object-cover border border-slate-200"
+                      className="w-7 h-7 xl:w-8 xl:h-8 rounded-full object-cover border border-slate-200"
                     />
-                    <span className="text-sm font-semibold max-w-[120px] truncate">
+                    <span className="text-xs xl:text-sm font-semibold max-w-[120px] truncate">
                       {user?.name}
                     </span>
                     <ChevronDown className={`w-4 h-4 text-slate-400 transition-transform ${dropdownOpen ? 'rotate-180' : ''}`} />
@@ -158,10 +158,10 @@ export const Navbar = () => {
                 </div>
               ) : (
                 <>
-                  <Link to="/login" className="text-sm font-semibold text-slate-700 hover:text-blue-600 px-3 py-2">
+                  <Link to="/login" className="text-xs xl:text-sm font-semibold text-slate-700 hover:text-blue-600 px-2.5 py-2 whitespace-nowrap">
                     {t('nav.signIn')}
                   </Link>
-                  <Button variant="primary" size="md" icon={Sparkles} onClick={() => navigate('/identify')}>
+                  <Button variant="primary" size="sm" className="xl:py-2.5 xl:px-4 xl:text-sm text-xs" icon={Sparkles} onClick={() => navigate('/identify')}>
                     {t('nav.tryDogBreedID')}
                   </Button>
                 </>

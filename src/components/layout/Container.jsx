@@ -4,8 +4,9 @@ import clsx from 'clsx';
 export const Container = ({ children, className, size = 'default' }) => {
   const sizes = {
     small: 'max-w-4xl',
-    default: 'max-w-[1320px]',
-    wide: 'max-w-[1440px]'
+    default: 'max-w-[1440px] 2xl:max-w-[1536px]',
+    wide: 'max-w-[1600px] 2xl:max-w-[1720px]',
+    full: 'max-w-full'
   };
 
   return (
