@@ -48,13 +48,13 @@ export const FAQPage = () => {
         {/* Hero Header */}
         <div className="max-w-3xl mb-10">
           <span className="text-xs font-bold text-blue-600 uppercase tracking-wider bg-blue-50 px-3 py-1 rounded-full mb-3 inline-block">
-            {t('badge', 'Help & Documentation')}
+            {t('hero.badge', 'Trợ giúp & Tài liệu')}
           </span>
           <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
-            {t('heroTitle', 'Frequently Asked Questions')}
+            {t('hero.title', 'Câu hỏi thường gặp')}
           </h1>
           <p className="mt-2 text-base text-slate-600">
-            {t('heroSubtitle', "Find answers regarding DogBreedID's thesis scope, AI model architectures, and image classification capabilities.")}
+            {t('hero.subtitle', 'Tìm câu trả lời liên quan đến phạm vi khóa luận, các mô hình AI và khả năng phân loại của DogBreedID.')}
           </p>
         </div>
 
@@ -64,7 +64,7 @@ export const FAQPage = () => {
             value={searchTerm}
             onChange={setSearchTerm}
             onClear={() => setSearchTerm('')}
-            placeholder={t('searchPlaceholder', 'Search questions by keyword...')}
+            placeholder={t('searchPlaceholder', 'Tìm kiếm câu hỏi theo từ khóa...')}
           />
 
           <div className="flex items-center gap-2 overflow-x-auto pb-1 md:pb-0">
@@ -87,9 +87,9 @@ export const FAQPage = () => {
         ) : (
           <EmptyState
             icon={HelpCircle}
-            title={t('noQuestionsFound', 'No questions found')}
-            description={t('noQuestionsFoundSub', "We couldn't find any FAQ items matching your search keywords or category filter.")}
-            actionLabel={t('clearSearch', 'Clear Search')}
+            title={t('empty.title', 'Không tìm thấy câu hỏi nào')}
+            description={t('empty.description', 'Chúng tôi không tìm thấy câu hỏi FAQ nào phù hợp với từ khóa hoặc danh mục được chọn.')}
+            actionLabel={t('empty.action', 'Xóa tìm kiếm')}
             onAction={() => {
               setSearchTerm('');
               setSelectedCategory('all');

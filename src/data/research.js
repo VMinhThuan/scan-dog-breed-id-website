@@ -1,28 +1,38 @@
 export const pipelineSteps = [
   {
     step: "01",
-    titleKey: "ai:preprocessing.step1Title",
-    descKey: "ai:preprocessing.step1Desc"
+    titleKey: "preprocessing.step1Title",
+    descKey: "preprocessing.step1Desc",
+    title: { vi: "Ảnh RGB", en: "RGB Image" },
+    description: { vi: "Ảnh chụp gốc do người dùng tải lên ở định dạng JPG hoặc PNG.", en: "Raw input photo submitted by user in JPG or PNG format." }
   },
   {
     step: "02",
-    titleKey: "ai:preprocessing.step2Title",
-    descKey: "ai:preprocessing.step2Desc"
+    titleKey: "preprocessing.step2Title",
+    descKey: "preprocessing.step2Desc",
+    title: { vi: "Thay đổi kích thước", en: "Resize" },
+    description: { vi: "Nội suy song tuyến tính đưa ảnh về độ phân giải chuẩn 224x224.", en: "Bilinear interpolation resizes image to uniform 224x224 resolution." }
   },
   {
     step: "03",
-    titleKey: "ai:preprocessing.step3Title",
-    descKey: "ai:preprocessing.step3Desc"
+    titleKey: "preprocessing.step3Title",
+    descKey: "preprocessing.step3Desc",
+    title: { vi: "Chuẩn hóa Tensor", en: "Normalize" },
+    description: { vi: "Chuẩn hóa theo trung bình ImageNet [0.485, 0.456, 0.406] và độ lệch chuẩn [0.229, 0.224, 0.225].", en: "Standardized using ImageNet mean [0.485, 0.456, 0.406] and std [0.229, 0.224, 0.225]." }
   },
   {
     step: "04",
-    titleKey: "ai:preprocessing.step4Title",
-    descKey: "ai:preprocessing.step4Desc"
+    titleKey: "preprocessing.step4Title",
+    descKey: "preprocessing.step4Desc",
+    title: { vi: "Trích xuất đặc trưng CNN", en: "CNN Feature Extraction" },
+    description: { vi: "Các lớp tích chập trích xuất đường nét, họa tiết lông và hình dáng đặc trưng của chú chó.", en: "Deep convolutional layers extract edge gradients, fur textures, and facial contours." }
   },
   {
     step: "05",
-    titleKey: "ai:pipeline.step5Title",
-    descKey: "ai:pipeline.step5Desc"
+    titleKey: "pipeline.step5Title",
+    descKey: "pipeline.step5Desc",
+    title: { vi: "Suy luận & Phân loại Top-5", en: "Inference & Top-5 Classification" },
+    description: { vi: "Lớp Softmax tính toán phân bố xác suất và xuất ra danh sách Top-5 giống chó phù hợp nhất.", en: "The model calculates Softmax probability distribution and outputs the Top-5 candidate breeds." }
   }
 ];
 

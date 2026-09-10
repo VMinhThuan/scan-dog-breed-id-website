@@ -34,24 +34,24 @@ export const ResearchPage = () => {
         {/* Research Page Hero */}
         <div className="max-w-3xl mb-12">
           <Badge variant="blue" icon={BookOpen} className="mb-3">
-            {t('badge', 'Academic Thesis Research')}
+            {t('hero.badge', 'Nghiên cứu khóa luận học thuật')}
           </Badge>
           <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight leading-tight">
-            {t('heroTitle', 'Comparing CNN architectures for fine-grained dog breed classification')}
+            {t('hero.title', 'So sánh các kiến trúc CNN cho phân loại giống chó chi tiết')}
           </h1>
           <p className="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">
-            {t('heroSubtitle', 'The thesis evaluates multiple transfer learning architectures based on fine-grained classification accuracy, computational efficiency, parameter count, and deployment latency.')}
+            {t('hero.description', 'Khóa luận đánh giá nhiều kiến trúc học chuyển giao dựa trên độ chính xác phân loại chi tiết, hiệu quả tính toán, số lượng tham số và độ trễ suy luận khi triển khai.')}
           </p>
         </div>
 
         {/* Research Objectives */}
         <div className="mb-16">
-          <h2 className="text-2xl font-black text-slate-900 mb-6">{t('objectivesTitle', 'Research Objectives')}</h2>
+          <h2 className="text-2xl font-black text-slate-900 mb-6">{t('objectives.title', 'Mục tiêu nghiên cứu')}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {thesisObjectives.map((obj, idx) => (
               <Card key={idx} hoverable padding="p-6">
                 <span className="text-xs font-bold text-blue-600 uppercase tracking-wider block mb-2">
-                  {t('objectiveLabel', 'Objective')} 0{idx + 1}
+                  Mục tiêu 0{idx + 1}
                 </span>
                 <h3 className="text-lg font-bold text-slate-900 mb-2">{getLoc(obj.title)}</h3>
                 <p className="text-xs text-slate-600 leading-relaxed">{getLoc(obj.description)}</p>
@@ -62,7 +62,7 @@ export const ResearchPage = () => {
 
         {/* Model Architecture Cards */}
         <div className="mb-16">
-          <h2 className="text-2xl font-black text-slate-900 mb-6">{t('evaluatedArchitectures', 'Evaluated CNN Architectures')}</h2>
+          <h2 className="text-2xl font-black text-slate-900 mb-6">{t('models.title', 'Các kiến trúc CNN được đánh giá')}</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {modelMetrics.map((model) => (
               <ResearchModelCard key={model.id} model={model} />
@@ -81,20 +81,20 @@ export const ResearchPage = () => {
             <div>
               <h3 className="text-xl font-bold text-slate-900 flex items-center gap-2">
                 <BarChart3 className="w-5 h-5 text-blue-600" />
-                {t('chartTitle', 'Benchmark Comparison Chart')}
+                {t('chart.title', 'Biểu đồ so sánh chuẩn')}
               </h3>
               <p className="text-xs text-slate-500 mt-1">
-                {t('chartSubtitle', 'Visual metric distributions across ResNet50, EfficientNet-B0, and MobileNetV3')}
+                {t('chart.subtitle', 'Phân bố chỉ số trực quan giữa ResNet50, EfficientNet-B0 và MobileNetV3')}
               </p>
             </div>
-            <Badge variant="amber">{t('pendingMetricsBadge', 'Experimental Metrics Pending')}</Badge>
+            <Badge variant="amber">{t('chart.pendingBadge', 'Chưa có kết quả thực nghiệm')}</Badge>
           </div>
 
           <div className="h-64 bg-slate-50 rounded-2xl border border-dashed border-slate-300 flex flex-col items-center justify-center p-6 text-center">
             <BarChart3 className="w-12 h-12 text-slate-300 mb-3" />
-            <h4 className="text-base font-bold text-slate-700">{t('pendingMetricsTitle', 'Experimental Metrics Pending')}</h4>
+            <h4 className="text-base font-bold text-slate-700">{t('chart.pendingTitle', 'Chưa có kết quả thực nghiệm')}</h4>
             <p className="text-xs text-slate-500 max-w-md mt-1">
-              {t('pendingMetricsDesc', 'Quantitative comparison plots (Accuracy vs. Model Size vs. Latency) will be rendered after training evaluation completes.')}
+              {t('chart.pendingDesc', 'Biểu đồ so sánh định lượng (Độ chính xác vs. Dung lượng mô hình vs. Độ trễ) sẽ được hiển thị sau khi hoàn thành đánh giá huấn luyện.')}
             </p>
           </div>
         </div>
@@ -104,25 +104,25 @@ export const ResearchPage = () => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-6">
               <span className="text-xs font-bold text-blue-400 uppercase tracking-wider bg-blue-950 px-3 py-1 rounded-full border border-blue-800 mb-3 inline-block">
-                {t('datasetBadge', 'Dataset Reference')}
+                {t('dataset.badge', 'Bộ dữ liệu tham chiếu')}
               </span>
               <h2 className="text-3xl font-black text-white mb-4">{datasetSummary.name}</h2>
               <p className="text-sm text-slate-300 leading-relaxed mb-6">
-                {t('datasetDesc', 'The research baseline utilizes the Stanford Dogs Dataset, containing fine-grained category images collected for testing fine-grained visual categorization algorithms.')}
+                {t('dataset.description', 'Nghiên cứu cơ sở sử dụng bộ dữ liệu Stanford Dogs, chứa các hình ảnh phân loại chi tiết được thu thập để kiểm thử thuật toán phân loại thị giác.')}
               </p>
 
               <div className="grid grid-cols-2 gap-4 text-xs">
                 <div className="p-4 rounded-2xl bg-slate-800/80 border border-slate-700">
-                  <span className="text-slate-400 block font-medium">{t('totalImagesLabel', 'Total Images')}</span>
+                  <span className="text-slate-400 block font-medium">{t('dataset.totalImages', 'Tổng số ảnh')}</span>
                   <strong className="text-2xl font-black text-white mt-1 block">
                     {datasetSummary.imagesCount}
                   </strong>
                 </div>
 
                 <div className="p-4 rounded-2xl bg-slate-800/80 border border-slate-700">
-                  <span className="text-slate-400 block font-medium">{t('targetClassesLabel', 'Target Classes')}</span>
+                  <span className="text-slate-400 block font-medium">{t('dataset.targetClasses', 'Các lớp giống chó')}</span>
                   <strong className="text-2xl font-black text-blue-400 mt-1 block">
-                    {datasetSummary.classesCount} {t('breedsCountSuffix', 'Breeds')}
+                    {datasetSummary.classesCount} {t('dataset.classesValue', 'Giống chó')}
                   </strong>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export const ResearchPage = () => {
 
             {/* Split Breakdown */}
             <div className="lg:col-span-6 space-y-3">
-              <h4 className="text-sm font-bold text-slate-300 mb-2">{t('splitTitle', 'Dataset Split Partitioning')}</h4>
+              <h4 className="text-sm font-bold text-slate-300 mb-2">{t('dataset.splitTitle', 'Phân chia bộ dữ liệu')}</h4>
               {datasetSummary.splits.map((split, idx) => (
                 <div key={idx} className="p-4 rounded-2xl bg-slate-800/60 border border-slate-700 flex justify-between items-center text-xs">
                   <span className="font-bold text-white">{getLoc(split.label)}</span>
@@ -147,20 +147,20 @@ export const ResearchPage = () => {
             <div>
               <h3 className="text-xl font-bold text-slate-900 flex items-center gap-2">
                 <Grid className="w-5 h-5 text-violet-600" />
-                {t('matrixEvalTitle', 'Confusion Matrix Evaluation')}
+                {t('confusion.title', 'Đánh giá Ma trận nhầm lẫn (Confusion Matrix)')}
               </h3>
               <p className="text-xs text-slate-500 mt-1">
-                {t('matrixEvalSubtitle', 'Visualizing class misclassification rates across similar breed categories')}
+                {t('confusion.subtitle', 'Trực quan hóa tỷ lệ nhầm lẫn giữa các lớp giống chó tương tự nhau')}
               </p>
             </div>
-            <Badge variant="violet">{t('pendingEvalBadge', 'Pending Evaluation Output')}</Badge>
+            <Badge variant="violet">{t('confusion.pendingBadge', 'Đang chờ kết quả thực nghiệm')}</Badge>
           </div>
 
           <div className="h-48 bg-slate-50 rounded-2xl border border-dashed border-slate-300 flex flex-col items-center justify-center p-6 text-center">
             <Grid className="w-10 h-10 text-slate-300 mb-2" />
-            <h4 className="text-sm font-bold text-slate-700">{t('pendingEvalTitle', 'Confusion Matrix — Experimental Output Pending')}</h4>
+            <h4 className="text-sm font-bold text-slate-700">{t('confusion.pendingTitle', 'Ma trận nhầm lẫn — Chưa có kết quả thực nghiệm')}</h4>
             <p className="text-xs text-slate-500 max-w-md mt-1">
-              {t('pendingEvalDesc', 'Class confusion analysis between visually overlapping breeds (e.g., Golden Retriever vs. Labrador Retriever) will populate after test split execution.')}
+              {t('confusion.pendingDesc', 'Phân tích sự nhầm lẫn giữa các giống chó có ngoại hình gần giống nhau sẽ được cập nhật sau khi chạy tập kiểm thử.')}
             </p>
           </div>
         </div>

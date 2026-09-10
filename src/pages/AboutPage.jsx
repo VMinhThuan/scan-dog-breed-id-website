@@ -22,44 +22,44 @@ export const AboutPage = () => {
         {/* Hero Header */}
         <div className="max-w-3xl mb-12">
           <Badge variant="blue" icon={GraduationCap} className="mb-3">
-            {t('badge', 'Academic Context')}
+            {t('hero.badge', 'Bối cảnh học thuật')}
           </Badge>
           <h1 className="text-3xl sm:text-5xl font-black text-slate-900 tracking-tight">
-            {t('heroTitle', 'About DogBreedID')}
+            {t('hero.title', 'Về dự án DogBreedID')}
           </h1>
           <p className="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">
-            {t('heroSubtitle', 'A Computer Science graduation thesis project exploring deep learning, transfer learning, and model interpretability for fine-grained dog breed classification.')}
+            {t('hero.subtitle', 'Đề tài khóa luận tốt nghiệp ngành Khoa học Máy tính nghiên cứu học sâu, học chuyển giao và tính giải thích mô hình cho phân loại giống chó chi tiết.')}
           </p>
         </div>
 
         {/* The Problem & Our Approach */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
           <Card padding="p-8">
-            <h3 className="text-2xl font-extrabold text-slate-900 mb-4">{t('challengeTitle', 'The Challenge')}</h3>
+            <h3 className="text-2xl font-extrabold text-slate-900 mb-4">{t('challenge.title', 'Thách thức')}</h3>
             <p className="text-sm text-slate-600 leading-relaxed">
-              {t('challengeDesc', 'Fine-grained visual categorization is inherently challenging due to subtle inter-class differences between closely related breeds (such as Golden Retriever vs. Labrador Retriever) paired with large intra-class variation in lighting, pose, age, and coat pattern.')}
+              {t('challenge.desc', 'Phân loại hình ảnh chi tiết bản chất rất phức tạp do sự khác biệt nhỏ giữa các giống chó có họ hàng gần kết hợp với biến thiên nội lớp lớn.')}
             </p>
           </Card>
 
           <Card padding="p-8">
-            <h3 className="text-2xl font-extrabold text-slate-900 mb-4">{t('approachTitle', 'Our Approach')}</h3>
+            <h3 className="text-2xl font-extrabold text-slate-900 mb-4">{t('approach.title', 'Phương pháp tiếp cận')}</h3>
             <p className="text-sm text-slate-600 leading-relaxed">
-              {t('approachDesc', 'We leverage transfer learning on deep Convolutional Neural Networks (ResNet50, EfficientNet-B0, MobileNetV3), fine-tuned on the Stanford Dogs Dataset, paired with Grad-CAM activation maps and ONNX Runtime execution for web deployment.')}
+              {t('approach.desc', 'Chúng tôi áp dụng học chuyển giao trên các mạng nơ-ron tích chập sâu (ResNet50, EfficientNet-B0, MobileNetV3) kết hợp Grad-CAM và ONNX Runtime.')}
             </p>
           </Card>
         </div>
 
         {/* Project Goals */}
         <div className="mb-16">
-          <h2 className="text-2xl font-black text-slate-900 mb-6">{t('objectivesTitle', 'Core Project Objectives')}</h2>
+          <h2 className="text-2xl font-black text-slate-900 mb-6">{t('goals.title', 'Mục tiêu chính của dự án')}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <Card padding="p-6">
               <div className="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center mb-4">
                 <Target className="w-5 h-5" />
               </div>
-              <h4 className="text-lg font-bold text-slate-900 mb-2">{t('obj1Title', 'Compare CNNs')}</h4>
+              <h4 className="text-lg font-bold text-slate-900 mb-2">{t('goals.g1Title', 'So sánh các mạng CNN')}</h4>
               <p className="text-xs text-slate-600 leading-relaxed">
-                {t('obj1Desc', 'Evaluate trade-offs between classification accuracy, parameter count, and inference latency.')}
+                {t('goals.g1Desc', 'Đánh giá sự đánh đổi giữa độ chính xác phân loại, số lượng tham số và độ trễ suy luận.')}
               </p>
             </Card>
 
@@ -67,9 +67,9 @@ export const AboutPage = () => {
               <div className="w-10 h-10 rounded-xl bg-violet-50 text-violet-600 flex items-center justify-center mb-4">
                 <Cpu className="w-5 h-5" />
               </div>
-              <h4 className="text-lg font-bold text-slate-900 mb-2">{t('obj2Title', 'ONNX Runtime')}</h4>
+              <h4 className="text-lg font-bold text-slate-900 mb-2">{t('goals.g2Title', 'ONNX Runtime')}</h4>
               <p className="text-xs text-slate-600 leading-relaxed">
-                {t('obj2Desc', 'Optimize neural network execution speed for real-time web endpoint serving.')}
+                {t('goals.g2Desc', 'Tối ưu hóa tốc độ thực thi mạng nơ-ron cho việc phục vụ các điểm cuối web thời gian thực.')}
               </p>
             </Card>
 
@@ -77,9 +77,9 @@ export const AboutPage = () => {
               <div className="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-4">
                 <Layers className="w-5 h-5" />
               </div>
-              <h4 className="text-lg font-bold text-slate-900 mb-2">{t('obj3Title', 'Grad-CAM')}</h4>
+              <h4 className="text-lg font-bold text-slate-900 mb-2">{t('goals.g3Title', 'Grad-CAM')}</h4>
               <p className="text-xs text-slate-600 leading-relaxed">
-                {t('obj3Desc', 'Provide visual attention heatmaps to explain prediction regions and increase model transparency.')}
+                {t('goals.g3Desc', 'Cung cấp bản đồ nhiệt chú ý trực quan để giải thích các vùng dự đoán và tăng tính minh bạch.')}
               </p>
             </Card>
 
@@ -87,9 +87,9 @@ export const AboutPage = () => {
               <div className="w-10 h-10 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center mb-4">
                 <Code2 className="w-5 h-5" />
               </div>
-              <h4 className="text-lg font-bold text-slate-900 mb-2">{t('obj4Title', 'Web Platform')}</h4>
+              <h4 className="text-lg font-bold text-slate-900 mb-2">{t('goals.g4Title', 'Nền tảng Web')}</h4>
               <p className="text-xs text-slate-600 leading-relaxed">
-                {t('obj4Desc', 'Build a modern, interactive web user interface designed for thesis defense and live demonstration.')}
+                {t('goals.g4Desc', 'Xây dựng giao diện ứng dụng web hiện đại, tương tác cao phục vụ cho việc bảo vệ khóa luận.')}
               </p>
             </Card>
           </div>
@@ -97,31 +97,31 @@ export const AboutPage = () => {
 
         {/* Full Architecture Overview */}
         <div className="bg-slate-900 text-white rounded-3xl p-8 sm:p-10 border border-slate-800 shadow-xl mb-12">
-          <h2 className="text-2xl font-black mb-6">{t('techStackTitle', 'Planned End-to-End Technology Stack')}</h2>
+          <h2 className="text-2xl font-black mb-6">{t('stack.title', 'Kiến trúc công nghệ hoàn chỉnh dự kiến')}</h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-xs">
             <div className="p-5 rounded-2xl bg-slate-800/80 border border-slate-700">
-              <span className="text-blue-400 font-bold block mb-1">{t('frontendBadge', 'Frontend Layer')}</span>
+              <span className="text-blue-400 font-bold block mb-1">{t('stack.frontend', 'Tầng Frontend')}</span>
               <h4 className="text-base font-bold text-white mb-2">ReactJS + Tailwind</h4>
-              <p className="text-slate-400">{t('frontendDesc', 'Single-page web client built with React Router, Lucide icons, and Framer Motion.')}</p>
+              <p className="text-slate-400">{t('stack.frontendDesc', 'Ứng dụng web đơn trang xây dựng với ReactJS, React Router, biểu tượng Lucide và Framer Motion.')}</p>
             </div>
 
             <div className="p-5 rounded-2xl bg-slate-800/80 border border-slate-700">
-              <span className="text-violet-400 font-bold block mb-1">{t('backendBadge', 'Future Backend')}</span>
+              <span className="text-violet-400 font-bold block mb-1">{t('stack.backend', 'Backend tương lai')}</span>
               <h4 className="text-base font-bold text-white mb-2">FastAPI</h4>
-              <p className="text-slate-400">{t('backendDesc', 'Asynchronous Python API server handling file uploads and ONNX Runtime sessions.')}</p>
+              <p className="text-slate-400">{t('stack.backendDesc', 'Máy chủ API bất đồng bộ Python FastAPI xử lý tải tệp và các phiên làm việc ONNX Runtime.')}</p>
             </div>
 
             <div className="p-5 rounded-2xl bg-slate-800/80 border border-slate-700">
-              <span className="text-emerald-400 font-bold block mb-1">{t('aiEngineBadge', 'AI & Model Engine')}</span>
+              <span className="text-emerald-400 font-bold block mb-1">{t('stack.ai', 'Động cơ AI & Mô hình')}</span>
               <h4 className="text-base font-bold text-white mb-2">PyTorch & ONNX</h4>
-              <p className="text-slate-400">{t('aiEngineDesc', 'Fine-tuned transfer learning weights exported for ONNX inference acceleration.')}</p>
+              <p className="text-slate-400">{t('stack.aiDesc', 'Trọng số học chuyển giao PyTorch được tinh chỉnh và xuất sang ONNX để tăng tốc suy luận.')}</p>
             </div>
 
             <div className="p-5 rounded-2xl bg-slate-800/80 border border-slate-700">
-              <span className="text-amber-400 font-bold block mb-1">{t('databaseBadge', 'Database Layer')}</span>
+              <span className="text-amber-400 font-bold block mb-1">{t('stack.database', 'Tầng Cơ sở dữ liệu')}</span>
               <h4 className="text-base font-bold text-white mb-2">PostgreSQL</h4>
-              <p className="text-slate-400">{t('databaseDesc', 'Relational database storing user sessions, metadata logs, and analysis history.')}</p>
+              <p className="text-slate-400">{t('stack.databaseDesc', 'Cơ sở dữ liệu quan hệ PostgreSQL lưu trữ phiên người dùng, nhật ký dữ liệu và lịch sử phân tích.')}</p>
             </div>
           </div>
         </div>
